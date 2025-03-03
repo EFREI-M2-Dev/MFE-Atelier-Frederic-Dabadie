@@ -27,10 +27,12 @@ export default {
             shared: {
                 react: {
                     singleton: true,
+                    eager: true,
                     requiredVersion: '^18.2.0',
                 },
                 'react-dom': {
                     singleton: true,
+                    eager: true,
                     requiredVersion: '^18.2.0',
                 },
             },
