@@ -1,0 +1,28 @@
+{
+  "name": "mfe-atelier-frederic-dabadie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development --port 2000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "@module-federation/enhanced": "^0.9.1",
+    "babel-loader": "^10.0.0",
+    "html-webpack-plugin": "^5.6.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "webpack": "5.96.1",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
